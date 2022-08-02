@@ -8,14 +8,14 @@ Exploring the differences between PHP and Python…
 * Min value of array `min($arr)` vs `min(arr)`
 * Modulo `$a % $b` vs `a % b`
 
-## Different syntax or method names
+## Different syntax
 
 * Ternary conditional operator `$condition ? $a : $b` vs `a if condition else b`
 * Split string by character `str_split($str)` vs `list(str)`
 * Join string by character `implode(',', $arr)` vs `','.join(arr)`
 * Convert variable to int `intval($value)` vs `int(value)`
 
-## Loops
+### Loops
 
 * Iterate over array `foreach($arr as $value)` vs `for value in arr:`
 * Iterate over array with index `foreach($arr as $index => $value)` vs `for index, x in enumerate(arr):`
