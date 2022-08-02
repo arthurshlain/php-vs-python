@@ -1,5 +1,7 @@
 # php-vs-python
 
+Exploring the differences between PHP and Python…
+
 ## Same syntax
 
 * Max value of array `max($arr)` vs `max(arr)`
