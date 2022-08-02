@@ -6,8 +6,9 @@
 * Min value of array `min($arr)` vs `min(arr)`
 * Modulo `$a % $b` vs `a % b`
 
-## Different names of methods
+## Different syntax or method names
 
+* Ternary conditional operator `$condition ? $a : $b` vs `a if condition else b`
 * Split string by character `str_split($str)` vs `list(str)`
 
 ## Loops
