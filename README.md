@@ -13,7 +13,8 @@ Exploring the differences between PHP and Python…
 * Ternary conditional operator `$condition ? $a : $b` vs `a if condition else b`
 * Split string by character `str_split($str)` vs `list(str)`
 * Join string by character (comma) `implode(',', $arr)` vs `','.join(arr)`
-* Convert variable to int `intval($value)` vs `int(value)`
+* Convert variable to int `intval('5')` vs `int('5')`
+* Convert variable to string `strval(5)` vs `str(5)`
 * Check if value exists in array `in_array(2, [1, 2, 3])` vs `2 in [1, 2, 3]`
 * Search element in array and get their index `array_search(1, [1, 2, 3])` vs `[1, 2, 3].index(2)`
 
