@@ -18,6 +18,7 @@ Exploring the differences between PHP and Python…
 * Check if the value and type of the operands is the same `$a === $b` vs `a == b`
 * Function declaration `function foo(){ }` vs `def foo():`
 * Join string by character (comma) `implode(',', $arr)` vs `','.join(arr)`
+* Map callback to the elements of the array `array_map('intval', $arr)` vs `map(int, arr)`
 * Ternary conditional operator `$condition ? $a : $b` vs `a if condition else b`
 * Search element in array and get their index `array_search(1, [1, 2, 3])` vs `[1, 2, 3].index(2)`
 * Split string by character `str_split($str)` vs `list(str)`
