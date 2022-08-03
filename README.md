@@ -15,6 +15,7 @@ Exploring the differences between PHP and Python…
 * Join string by character (comma) `implode(',', $arr)` vs `','.join(arr)`
 * Convert variable to int `intval($value)` vs `int(value)`
 * Check if value exists in array `in_array(2, [1, 2, 3])` vs `2 in [1, 2, 3]`
+* Search element in array and get their index `array_search(1, [1, 2, 3])` vs `[1, 2, 3].index(2)`
 
 ### Loops
 
