@@ -10,6 +10,7 @@ Exploring the differences between PHP and Python…
 
 ## Different syntax
 
+* Declare variable `$foo = 'bar';` vs `foo = 'bar'`
 * Check if the value and type of the operands is the same `$a === $b` vs `a == b`
 * Ternary conditional operator `$condition ? $a : $b` vs `a if condition else b`
 * Split string by character `str_split($str)` vs `list(str)`
