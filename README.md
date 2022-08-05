@@ -5,6 +5,8 @@ Exploring the differences between PHP and Python…
 ## Same syntax
 
 * Assignment operator `$foo = 'bar';` vs `foo = 'bar'`
+* Create an empty array `$arr = [];` vs empty list `arr = []`
+* * Create an array with values `$arr = [1, 2, 'str'];` vs list with values `arr = [1, 2, 'str']`
 * Max value of array `max($arr)` vs `max(arr)`
 * Min value of array `min($arr)` vs `min(arr)`
 * Modulo `$a % $b` vs `a % b`
