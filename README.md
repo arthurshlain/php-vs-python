@@ -21,7 +21,9 @@ Exploring the differences between PHP and Python…
 * Map callback to the elements of the array `array_map('intval', $arr)` vs `map(int, arr)`
 * Ternary conditional operator `$condition ? $a : $b` vs `a if condition else b`
 * Search element in array and get their index `array_search(1, [1, 2, 3])` vs `[1, 2, 3].index(2)`
-* Split string by character `str_split($str)` vs `list(str)`
+* Convert a string to an array. 
+  * Chunk size is 1. `$chunks = str_split($str)` vs `chunks = list(str)`
+  * Chunk size is N. `$chunks = str_split($str, $n)` vs `chunks = [str[i:i+n] for i in range(0, len(str), n)]`
 * Round fractions up and down:
  
   * In PHP:
