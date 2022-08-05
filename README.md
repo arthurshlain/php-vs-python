@@ -23,6 +23,8 @@ Exploring the differences between PHP and Python…
 * Join array elements with a string `implode(',', $arr)` vs `','.join(arr)`
 * Map callback to the elements of the array `array_map('intval', $arr)` vs `map(int, arr)`
 * Search element in array and get their index `array_search(1, [1, 2, 3])` vs `[1, 2, 3].index(2)`
+* Split a string by a string (return array): `explode(',', $str)` vs `str.split(',')`
+* Split a string by a string with limit: `explode(',', $str, 3)` vs `str.split(',', 3)`
 * Round fractions up and down:
   * In PHP:
   ```php
