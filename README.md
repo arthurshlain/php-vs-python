@@ -12,6 +12,9 @@ Exploring the differences between PHP and Python…
 
 ## Different syntax
 
+* Convert a string to an array. 
+  * Chunk size is 1. `$chunks = str_split($str)` vs `chunks = list(str)`
+  * Chunk size is N. `$chunks = str_split($str, $n)` vs `chunks = [str[i:i+n] for i in range(0, len(str), n)]`
 * Convert variable to int `intval('5')` vs `int('5')`
 * Convert variable to string `strval(5)` vs `str(5)`
 * Check if value exists in array `in_array(2, [1, 2, 3])` vs `2 in [1, 2, 3]`
@@ -19,13 +22,8 @@ Exploring the differences between PHP and Python…
 * Function declaration `function foo(){ }` vs `def foo():`
 * Join array elements with a string `implode(',', $arr)` vs `','.join(arr)`
 * Map callback to the elements of the array `array_map('intval', $arr)` vs `map(int, arr)`
-* Ternary conditional operator `$condition ? $a : $b` vs `a if condition else b`
 * Search element in array and get their index `array_search(1, [1, 2, 3])` vs `[1, 2, 3].index(2)`
-* Convert a string to an array. 
-  * Chunk size is 1. `$chunks = str_split($str)` vs `chunks = list(str)`
-  * Chunk size is N. `$chunks = str_split($str, $n)` vs `chunks = [str[i:i+n] for i in range(0, len(str), n)]`
 * Round fractions up and down:
- 
   * In PHP:
   ```php
   ceil(1.5); // → 2
@@ -39,6 +37,8 @@ Exploring the differences between PHP and Python…
   math.ceil(1.5) # → 2
   math.floor(1.5) # → 1
   ```
+  
+* Ternary conditional operator `$condition ? $a : $b` vs `a if condition else b`
 
 ### Loops
 
